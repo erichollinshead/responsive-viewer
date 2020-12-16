@@ -1,5 +1,7 @@
+
 html, body {
 	margin: 0;
+	background-color: #333;
 }
 
 * {
@@ -77,7 +79,4 @@ svg .sg-fill {
 	width: 100%;
 	display: block;
 	margin: 0 auto;
-	background-color: #ccc;
-	height: 600px;
-	border: 12px solid #ddd;
 }
