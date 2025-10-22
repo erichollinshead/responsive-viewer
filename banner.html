@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" class="no-js">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Spotlight Banner</title>
+	<meta name="author" content="">
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,900" rel="stylesheet">
+
+	<style>
+
+		html, body {
+    		font-family: 'Nunito Sans', sans-serif;
+    		color: #fff !important; /* Gray */
+    		padding: 0;
+    		margin: 0;
+    		background-color: #fff;
+		}
+
+		.banner {
+			background: #ccc;
+			display: flex;
+  			justify-content: center; /* Centers horizontally */
+  			align-items: center;    /* Centers vertically */
+			aspect-ratio: 2 / 1; /* Sets a 2:1 aspect ratio */
+			padding: 16px;
+		}
+
+
+		.block {
+			max-width: 690px;
+		}
+
+		.item {
+			width: 100%;
+			color: #fff;
+			text-align: center;
+			padding: 8px 0;
+		}
+
+		.eyebrow {
+			font-size: 20px;
+			line-height: 26px;
+		}
+
+		.headline {
+			font-size: 64px;
+			line-height: 64px;
+		}
+
+		.copy {
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+		.buttons a {
+			margin: 8px 8px;
+		}
+
+		.buttons a:link, .buttons a:visited {
+  			background-color: #333;
+ 		 	color: white;
+  			padding: 12px 24px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+		}
+
+		.buttons a:hover, .buttons a:active {
+  			background-color: #444;
+		}
+
+		.legal {
+			font-size: 10px;
+		}
+
+		.legal a:link, a:visited, a:hover, a:active {
+			color: white;
+			text-decoration: underline;
+		}
+
+		@media (max-width: 768px) {
+
+    		.banner{
+  				aspect-ratio: 9 / 14;
+			}
+
+			.eyebrow {
+				font-size: 15px;
+				line-height: 21px;
+			}
+
+			.headline {
+				font-size: 40px;
+				line-height: 48px;
+			}
+
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<div class="banner wide">
+		
+		<div class="block">
+			<div class="item eyebrow">
+				Eyebrow
+			</div>
+			<div class="item headline">
+				Headline
+			</div>
+			<div class="item copy">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+			</div>
+			<div class="item buttons">
+				<a href="#">Button</a><a href="#">Button</a><a href="#">Button</a><a href="#">Button</a>
+			</div>
+			<div class="item copy">
+				Legal copy <a href="#">Legal link</div>
+			</div>
+		</div>
+
+	</div>
+	
+	
+</body>
+</html>
